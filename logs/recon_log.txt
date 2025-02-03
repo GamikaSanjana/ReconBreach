@@ -1,0 +1,6 @@
+[2025-02-03 14:00:00] Reconnaissance Started on: http://target-website.com
+[2025-02-03 14:05:12] Found open ports: 80, 443
+[2025-02-03 14:10:30] Detected server: Apache/2.4.29 (Ubuntu)
+[2025-02-03 14:15:00] SSL/TLS Configuration: Strong, no vulnerabilities detected
+[2025-02-03 14:20:00] Vulnerability scanning completed.
+[2025-02-03 14:25:00] Reconnaissance Finished

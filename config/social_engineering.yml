@@ -1,0 +1,13 @@
+social_engineering:
+  phishing:
+    - email_template: "phishing_email_template.html"
+    - subject_line: "Your account has been compromised!"
+    - attack_duration: 60  # in minutes
+  vishing:
+    - attack_duration: 30  # in minutes
+    - phone_numbers: ["+1234567890", "+0987654321"]
+    - message: "Your account has been locked due to suspicious activity. Please verify your identity."
+  smishing:
+    - sms_template: "smishing_sms_template.txt"
+    - phone_numbers: ["+1234567890", "+0987654321"]
+    - attack_duration: 45  # in minutes

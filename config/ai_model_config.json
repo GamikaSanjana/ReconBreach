@@ -1,0 +1,9 @@
+{
+  "ai_model_v1": "model_v1.h5",
+  "ai_model_v2": "model_v2.h5",
+  "ai_model_v3": "model_v3.h5",
+  "model_selection": "ai_model_v2",  # Specifies the model to use for vulnerability prediction
+  "learning_rate": 0.001,
+  "batch_size": 32,
+  "epochs": 5
+}
