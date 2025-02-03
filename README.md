@@ -86,8 +86,8 @@ pip3 install requests beautifulsoup4 tensorflow scikit-learn pandas paramiko
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/reconbreach.git
-cd reconbreach
+git clone https://github.com/GamikaSanjana/ReconBreach.git
+cd ReconBreach
 ```
 
 2. Set up a virtual environment:
@@ -185,7 +185,7 @@ Contributions from the hacking community are always welcome!
 
 Access the **ReconBreach** repository, report issues, and contribute at:
 
-[ReconBreach GitHub Repository](https://github.com/your-username/reconbreach)
+[ReconBreach GitHub Repository](https://github.com/GamikaSanjana/ReconBreach)
 
 ---
 
